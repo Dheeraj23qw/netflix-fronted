@@ -1,0 +1,1 @@
+export const URL ="https://netflix-api-1-r4nq.onrender.com"

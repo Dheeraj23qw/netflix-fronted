@@ -6,7 +6,7 @@ export default function Player() {
   const location = useLocation();
 
  
-  const image = location.state && location.state.image;
+  const image = "images/header1.jpg";
 
   return (
     <div className={styles.player}>

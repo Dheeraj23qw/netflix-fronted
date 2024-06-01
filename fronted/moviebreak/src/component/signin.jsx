@@ -4,6 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { URL } from "../../url";
 
 function Signup() {
   const [email, setEmail] = useState("");
@@ -14,7 +15,7 @@ function Signup() {
     e.preventDefault();
 
     axios
-      .post("https://netflix-final-two.vercel.app/api/login", {
+      .post(`${URL}/api/login`, {
         email: email,
         password: password,
       })
