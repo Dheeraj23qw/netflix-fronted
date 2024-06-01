@@ -27,7 +27,7 @@ console.log(movieData)
 
     try {
       const response = await axios.post(
-        "https://netflix-final-two.vercel.app/api/create-checkout",
+        "https://netflix-final-two.vercel.app/create-checkout",
         body,
         { headers }
       );
