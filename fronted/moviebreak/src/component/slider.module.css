@@ -1,0 +1,25 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.container{
+background-color: black;
+position: absolute;
+font-family: sans-serif;
+
+
+h1{
+    color: white;
+    font-size: 2.3rem;
+    text-align:left;
+    padding-left: 2rem;
+    position: absolute;
+    text-align: left;
+    padding-top:3.6rem;
+  
+}
+
+}
