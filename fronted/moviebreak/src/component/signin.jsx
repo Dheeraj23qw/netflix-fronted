@@ -15,7 +15,7 @@ function Signup() {
     e.preventDefault();
 
     axios
-      .post(`${URL}/api/login`, {
+      .post("https://netflix-final-two.vercel.app/login", {
         email: email,
         password: password,
       })

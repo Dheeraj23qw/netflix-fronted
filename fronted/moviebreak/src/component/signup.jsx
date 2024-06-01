@@ -16,7 +16,7 @@ function Signup() {
     e.preventDefault();
 
     axios
-      .post(`${URL}/api/register`, {
+      .post("https://netflix-final-two.vercel.app/register", {
         email: email,
         password: password,
         username: username,
@@ -99,7 +99,8 @@ function Signup() {
             </div>
             <div className={styles.msg}>
               This page is protected by Google reCAPTCHA to ensure you're not a
-              bot. <a href="https://www.google.com/recaptcha/about/">Learn more</a>.
+              bot.{" "}
+              <a href="https://www.google.com/recaptcha/about/">Learn more</a>.
             </div>
           </form>
         </div>
